@@ -121,7 +121,7 @@ st.divider()
 @st.cache_data
 def load_data():
 
-    data = pd.read_csv(r"C:\Users\SAKSHI LATE\Downloads\Palo Alto Networks.csv")
+    data = pd.read_csv(r"C:\Users\SAKSHI LATE\Downloads\Palo_Alto_Networks.csv")
 
     # Remove duplicate records
     data = data.drop_duplicates()
